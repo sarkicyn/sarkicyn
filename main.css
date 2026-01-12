@@ -338,6 +338,7 @@ cursor: poiner;
 }
 @media(max-width:1200px){
 .body {
+  max-width: 1000px;
   display: block;
   width: 100%;
   margin: 20px auto;
