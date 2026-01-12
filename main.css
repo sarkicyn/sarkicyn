@@ -202,8 +202,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
   border-radius: 24px;
  cursor: pointer;
   text-align: center;
-  box-sizing: border-box;
-  justify-content: center;
+  box-sizing: border-box;justify-content: center;
   padding-bottom: 20px;
 
   
@@ -337,7 +336,347 @@ justify-content: center; /* центрируем inline-блоки внутри 
 cursor: poiner;
  
 }
+@media(max-width:1200px){
+.body {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: linear-gradient(120deg,#ff3b3b 45%,#8b0000,#ffffffff 100%);
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.9)
+ 
+}@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 
+/* пункты меню */
+.li {
+  margin: 5px auto;
+  font-size: 20px;
+  
+  text-decoration: none;
+    text-align: center;
+     color: rgba(255, 255, 255, 0.9); 
+}
 
+/* ссылка */
+.lii {
+  position: relative;            /* ОБЯЗАТЕЛЬНО */
+  display: inline-block;
+        /* чтобы работал ::after */
+ 
+  
+}
+
+/* линия подчёркивания */
+
+/* навигация */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 2em;
+  
+}
+h1{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+p{
+    font-size: 10px;
+    line-height: 1.2;
+    word-spacing: 3px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.img-wapper {
+  display: block;
+  
+align-items: center;
+justify-content: center; /* центрируем inline-блоки внутри контейнера */
+}
+
+.img {
+  width: 100%;
+  display: inline-block;  /* чтобы работало с text-align */
+  
+  /* margin можно оставить, если нужно дополнительное расстояние сверху/снизу */
+}
+
+
+.fast{
+  width: 150px;
+  height: 100px;
+
+}
+.advantages{
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+:is(.advant-1,.advant-3){
+  flex: 1;
+ 
+}
+#data{
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.advant-1{
+   background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  padding: 5px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.advant-1:hover{
+  transform: scale(1.05);
+
+}
+
+.advant-2{
+   background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  padding: 5px;
+  text-align: center;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.advant-2:hover{
+  transform: scale(1.05);
+
+}
+.advant-3{
+   background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.advant-3:hover{
+  transform: scale(1.05);
+
+}
+:is(h4,h5,h6){
+  font-weight: 800;
+  font-size: 15px;
+}
+:is(h2,h3){
+  font-size: 25px;
+  font-weight: 900;
+}
+
+
+.span{
+  display: block;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-top:20px;
+}
+.span-2{
+   display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+ #data{
+  padding: 150px 0;
+  
+ }
+ section{
+  padding: 20px 0;
+ }
+ 
+
+ #span{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+ }
+
+
+ 
+ #div{
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: rgba(255,255,255,0.3), rgba(255,255,255,0.4);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.3);
+   position: relative;            /* ОБЯЗАТЕЛЬНО */
+  display: flex;         /* чтобы работал ::after */
+  transition: transform 0.3s ease,box-shadow 0.2s ease;
+  padding: 10px ;
+   backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border-radius: 24px;
+ cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+  padding-bottom: 10px;
+
+  
+ }
+ #div:hover{
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 2px 2px  rgba(0,0,0,0.1);
+
+
+ }
+.wrapper {
+  width: 270px;
+  height: 250px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  border-radius: 20px;
+  padding:  20px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.wrapper h1 {
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 30px 0; /* добавлен отступ для лучшего визуального разделения */
+}
+
+.wrapper .input-box {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  margin: 5px 0;
+  position: relative;
+  padding-top: 3px; /* добавлено для возможных будущих иконок */
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 20px;
+  box-sizing: border-box; /* важно для корректного расчета размеров */
+}
+
+.input-box input::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* лучше использовать полупрозрачный белый */
+}
+
+.input-box input:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.wrapper .remember-forgot {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* добавлено для вертикального выравнивания */
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* улучшает UX */
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 5px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper #btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 5px;
+  transition: all 0.3s ease; /* плавный переход для hover-эффекта */
+}
+
+.wrapper #btn:hover {
+  background: #f5f5f5;
+  transform: translateY(-2px); /* легкий подъем при наведении */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .register {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.register p {
+  margin: 0; /* убираем стандартные отступы у параграфа */
+}
+
+.register p a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+  width: 100%;
+cursor: poiner;
+ 
+}
+
+
+}
 
