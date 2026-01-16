@@ -1711,7 +1711,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
   border: 1px solid rgba(255,255,255,0.3);
    position: relative;            /* ОБЯЗАТЕЛЬНО */
   display: flex;         /* чтобы работал ::after */
-  transition: transform 0.3s ease,box-shadow 0.2s ease;
+
  padding:6.5px;
    backdrop-filter: blur(14px) saturate(180%);
   -webkit-backdrop-filter: blur(14px) saturate(180%);
