@@ -1732,7 +1732,8 @@ justify-content: center; /* центрируем inline-блоки внутри 
  }
  
  #div:active{
-  transform: translateY(5);
+  transform: translateY(1);
+  box-shadow: none;
 
  }
 
