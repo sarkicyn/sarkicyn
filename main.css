@@ -249,11 +249,11 @@ top: 50%;
 
  
  #div:active{
-  transform: translateY(0);
+  transform: translateY(5);
 
  }
 
- #div:focus{
+ #div:focus-visible{
     outline: none;
    background: rgba(255, 255, 255, 0.05);}
 .wrapper {
@@ -532,7 +532,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
 
  }
 
- #div:focus{
+ #div:focus-visible{
     outline: none;
    background: rgba(255, 255, 255, 0.05);}
 .wrapper {
@@ -935,7 +935,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
 
  }
 
- #div:focus{
+ #div:focus-visible{
     outline: none;
    background: rgba(255, 255, 255, 0.05);}
 .wrapper {
@@ -1334,7 +1334,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
 
  }
 
- #div:focus{
+ #div:focus-visible{
     outline: none;
    background: rgba(255, 255, 255, 0.05);
  }
@@ -1732,11 +1732,11 @@ justify-content: center; /* центрируем inline-блоки внутри 
  }
  
  #div:active{
-  transform: translateY(0);
+  transform: translateY(5);
 
  }
 
- #div:focus{
+ #div:focus-visible{
     outline: none;
    background: rgba(255, 255, 255, 0.05);}
 
