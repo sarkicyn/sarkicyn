@@ -1736,6 +1736,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
    background: rgba(255, 255, 255, 0.05);}
 
   .wrapper {
+    margin-bottom: 15px;
     width: 60vw; /* уменьшение ширины для мобильных */
     height: auto; /* высота будет подгоняться по содержимому */
     padding: 10px;
