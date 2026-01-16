@@ -64,8 +64,9 @@ justify-content: center; /* центрируем inline-блоки внутри 
 
 .img {
   width: 100%;
+  height: auto;
   display: block;  /* чтобы работало с text-align */
-  
+  object-fit: cover;
   /* margin можно оставить, если нужно дополнительное расстояние сверху/снизу */
 }
 
@@ -444,6 +445,8 @@ justify-content: center; /* центрируем inline-блоки внутри 
 }
 
 .img {
+  height: auto;
+  object-fit: cover;
   width: 100%;
   display: inline-block;  /* чтобы работало с text-align */
   
@@ -835,6 +838,8 @@ justify-content: center; /* центрируем inline-блоки внутри 
 }
 
 .img {
+  height: auto;
+  object-fit: cover;
   width: 100%;
   display:block;  /* чтобы работало с text-align */
   
@@ -1227,7 +1232,8 @@ justify-content: center; /* центрируем inline-блоки внутри 
 .img {
   width: 100%;
   display: block;  /* чтобы работало с text-align */
-  
+  object-fit: cover;
+  height: auto;
   /* margin можно оставить, если нужно дополнительное расстояние сверху/снизу */
 }
 
@@ -1617,7 +1623,8 @@ justify-content: center; /* центрируем inline-блоки внутри 
 .img {
   width: 100%;
   display: block;  /* чтобы работало с text-align */
-  
+  height: auto;
+  object-fit: cover;
   /* margin можно оставить, если нужно дополнительное расстояние сверху/снизу */
 }
 
