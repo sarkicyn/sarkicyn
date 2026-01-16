@@ -55,9 +55,9 @@ p{
 html{
     scroll-behavior: smooth;
 }
-.img-wapper {
+.img-wrapper {
   display: block;
-  
+  width: 100%;
 align-items: center;
 justify-content: center; /* центрируем inline-блоки внутри контейнера */
 }
@@ -437,9 +437,9 @@ p{
 html{
     scroll-behavior: smooth;
 }
-.img-wapper {
+.img-wrapper {
   display: block;
-  
+  width: 100%;
 align-items: center;
 justify-content: center; /* центрируем inline-блоки внутри контейнера */
 }
@@ -447,7 +447,7 @@ justify-content: center; /* центрируем inline-блоки внутри 
 .img {
   height: auto;
   object-fit: cover;
-  width: 100%;
+ width: 100%;
   display: inline-block;  /* чтобы работало с text-align */
   
   /* margin можно оставить, если нужно дополнительное расстояние сверху/снизу */
@@ -830,9 +830,9 @@ p{
 html{
     scroll-behavior: smooth;
 }
-.img-wapper {
+.img-wrapper {
   display: block;
-  
+  width: 100%;
 align-items: center;
 justify-content: center; /* центрируем inline-блоки внутри контейнера */
 }
@@ -1222,9 +1222,9 @@ p{
 html{
     scroll-behavior: smooth;
 }
-.img-wapper {
+.img-wrapper {
   display: block;
-  
+  width: 100%;
 align-items: center;
 justify-content: center; /* центрируем inline-блоки внутри контейнера */
 }
@@ -1613,9 +1613,9 @@ p{
 html{
     scroll-behavior: smooth;
 }
-.img-wapper {
+.img-wrapper {
   display: block;
-  
+  width: 100%;
 align-items: center;
 justify-content: center; /* центрируем inline-блоки внутри контейнера */
 }
